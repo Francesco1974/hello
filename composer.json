@@ -1,0 +1,13 @@
+{
+    "name": "fsdev/hello",
+    "description": "Hello",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Fsdev\\Hello\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
