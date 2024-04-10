@@ -2,7 +2,7 @@
     "name": "fsdev/hello",
     "description": "Hello",
     "type": "library",
-    "license": "GNU",
+    "license": "GPL-3.0 license",
     "authors": [
         {
             "name": "Francesco",
