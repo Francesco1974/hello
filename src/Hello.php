@@ -1,7 +1,13 @@
 <?php
+namespace FSDev;
+class Hello {
+    private $msg;
 
-class Hello{
-    public function __construct() {
-        echo "Hello";
+    public function __construct($name = "") {
+        $this->msg = "Hello " . $name ;
+    }
+
+    public function say(){
+        echo $this->msg;
     }
 }

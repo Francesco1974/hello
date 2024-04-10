@@ -3,9 +3,15 @@
     "description": "Hello",
     "type": "library",
     "license": "GNU",
+    "authors": [
+        {
+            "name": "Francesco",
+            "email": "fsdev@fsdev.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Fsdev\\Hello\\": "src/"
+            "FSDev\\": "src/"
         }
     },
     "minimum-stability": "stable",
